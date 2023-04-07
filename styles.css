@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgb(211, 211, 211);
+}
+.sketch-board {
+  display: flex;
+}
+
+.title {
+  margin-left: 40px;
+  font-size: 40px;
+}
+
+.clear {
+  background-color: white;
+}
+.board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+}
+
+.boardSize {
+  height: 20px;
+  background-color: white;
+}
+
+.color-picker {
+  padding:0px;
+  border-radius: 100%;
+  height: 70px;
+  width: 70px;
+  background: none;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 500px;
+  gap: 20px;
+}
+
+.rainbow {
+  align-self: flex-end;
+  background-color: white;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: solid 1px #000;
+	border-radius: 100%;
+}
